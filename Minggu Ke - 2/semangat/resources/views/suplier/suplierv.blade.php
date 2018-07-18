@@ -30,7 +30,7 @@
                         <td>
                             <form action="" method="post">
                                 {{ csrf_field() }}
-                                <a href='{{url("/suplier/edi/{$datas->id}")}}' class=" btn btn-sm btn-primary">Edit</a>
+                                <a href='{{url("/suplier/edit/{$datas->id}")}}' class=" btn btn-sm btn-primary">Edit</a>
                                 <a href='{{url("/suplier/delete/{$datas->id}")}}' class="btn btn-sm btn-danger">Delete</a></button>
                             </form>
                         </td>
